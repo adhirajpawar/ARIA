@@ -20,7 +20,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 import logging
 from typing import Union
 import speech_recognition as sr
-import spacy
+# import spacy
 from config import TOGETHER_API_KEY 
 import zipfile
 import rarfile
@@ -32,7 +32,7 @@ from langchain_together import Together
 
 os.environ['TOGETHER_API_KEY'] = TOGETHER_API_KEY  
 
-nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
 
 def extract_text(file): 
     text = ""
