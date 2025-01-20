@@ -1,0 +1,3 @@
+GOOGLE_API_KEY = 'AIzaSyDkMCuVVBKncRSov-_rGkNAuXdz2PHfMnM'
+TOGETHER_API_KEY = '17348bae372978a4b97a6efc557aee495ecc8604ee4e68a4f1346b887637c8d8'
+# HUGGING_FACE_TOKEN = # Replace with your actual Hugging Face token
