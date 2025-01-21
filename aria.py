@@ -374,8 +374,8 @@ def log_event(event: str):
     logger.info(event)
 
 def main():
-    st.set_page_config(page_title="M.A.R.S 🚀", layout="wide")
-    st.header("Multi-model AI Research System")
+    st.set_page_config(page_title="A.R.I.A 🚀", layout="wide")
+    st.header("AI-powered Research and Interpretation Assistant")
     user_question = st.chat_input("Ask Questions about Everything")
 
     if "conversation" not in st.session_state or not st.session_state.conversation:
@@ -384,7 +384,7 @@ def main():
         st.session_state.files_uploaded = False
 
     with st.sidebar: 
-        st.title("M.A.R.S")
+        st.title("A.R.I.A")
         model_mode = st.toggle("Online Mode")
 
         st.subheader("Upload your Files here")
